@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium Dark Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🖤 Premium Dark Store</h1>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search products..." />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="cart-icon" id="cartIcon">🛒</div>
+  </header>
+
+  <section class="products" id="productList">
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Smart Watch">
+      <h2>Smart Watch</h2>
+      <p>$120</p>
+      <button class="addCart">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Headphones">
+      <h2>Wireless Headphones</h2>
+      <p>$80</p>
+      <button class="addCart">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Gaming Mouse">
+      <h2>Gaming Mouse</h2>
+      <p>$45</p>
+      <button class="addCart">Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- Slide Cart -->
+  <div class="cart-panel" id="cartPanel">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <button id="closeCart">Close</button>
+  </div>
+
+  <footer>
+    <p>© 2025 Premium Dark Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
